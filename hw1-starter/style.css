@@ -1,0 +1,87 @@
+/* Your CSS code goes here */
+
+html { overflow: -moz-scrollbars-vertical; }
+
+
+body {
+	margin: 20px 0px 0px 0px;
+	padding: 0;
+	background: #99FFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3C3D3F;
+}
+
+#navbar {
+    text-align: center;
+    color: black;
+    display: block;
+    text-decoration: underline;
+    font-weight: bold;
+    background-image: url('simpsons.jpg');
+    margin: 25px 50px;
+    border-width: 3px;
+    border-style:outset;    
+    border-color: orange;    
+}
+
+#display {
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.bart img {
+    border-style:outset;
+    border-width: 10px;
+    border-color: orange;    
+    background: yellow;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.bart .caption{
+    text-indent: 255px;
+    margin-top: 10px;
+}
+
+.lisa img {
+    float: center;
+    height: 300px;
+    max-width: 450px;
+    border-width: 10px;
+    border-style:outset;    
+    border-color: orange;
+    background: yellow;
+    margin-top: -345px;
+    margin-left: 600px;
+    cursor: pointer;
+}
+
+.lisa .caption{
+    text-indent: 650px;
+    margin-top: -20px;
+}
+
+.image img{
+    height: 300px;
+    max-width: 450px;
+    border-style:outset;
+    border-width: 10px;
+    border-color: orange;
+    background: yellow;
+    margin-top: -345px;
+    margin-left: 1000px;
+    cursor: pointer;    
+}
+
+.image .caption{
+    text-indent: 1050px;
+    margin-top: -20px;
+}
+
+#commentBox{
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 50px; 
+    text-align: center;
+}

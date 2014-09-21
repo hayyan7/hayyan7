@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>The Web Gallery</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="init();">
+<div id="content">
+    <div id="navbar">
+        <div>Prev</div>
+        <div>Next</div>
+    </div>
+    <div id="display">
+        <div class="bart">
+            <img src="http://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="Bart"/>
+            <div class="caption">Bart Simpson</div>
+            <div class="comments"></div>
+        </div>
+                <div class="lisa">
+                         <img src="http://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png" alt="Lisa"/>
+                         <div class="caption">Lisa Simpson</div>
+                 <div class="comments">
+                 </div>
+            </div>
+        <div class="image">
+             <img src="http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" alt="Homer"/>
+              <div class="caption">Homer Simpson</div>
+             <div class="comments">
+             </div>
+        </div>
+    </div>
+    <div id="commentBox">
+        <div><label for='name'>Your name</label><input type="text" id="name"/></div>
+        <div><label for='content'>Your comment</label><textarea rows="10" cols="50" id="comment"></textarea></div>
+        <div id="publish"></div>
+    </div>
+</div>
+</body>
+</html>
